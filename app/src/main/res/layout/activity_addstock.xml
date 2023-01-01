@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddstockActivity">
+
+    <Button
+        android:id="@+id/addstock"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button"
+        android:text="Add/Edit Stock"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/deletstock"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button"
+        android:text="Delete Stock"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.968" />
+
+    <View
+        android:id="@+id/textView2"
+        android:layout_width="352dp"
+        android:layout_height="563dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="Add Fuel Stock"
+        android:textColor="#B61F15"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <EditText
+        android:id="@+id/stationid"
+        android:layout_width="303dp"
+        android:layout_height="57dp"
+        android:background="@drawable/forget"
+        android:hint="station ID"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <EditText
+        android:id="@+id/petrol92"
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:background="@drawable/forget"
+        android:hint="Petrol-92"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <EditText
+        android:id="@+id/diesel"
+        android:layout_width="153dp"
+        android:layout_height="55dp"
+        android:background="@drawable/forget"
+        android:hint="Diesel"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <EditText
+        android:id="@+id/petrol95"
+        android:layout_width="139dp"
+        android:layout_height="57dp"
+        android:background="@drawable/forget"
+        android:hint="Petrol-95"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <EditText
+        android:id="@+id/superdiesel"
+        android:layout_width="140dp"
+        android:layout_height="54dp"
+        android:background="@drawable/forget"
+        android:hint="Sup-Diesel"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="303dp"
+        android:layout_height="57dp"
+        android:background="@drawable/forget"
+        android:hint="City"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <EditText
+        android:id="@+id/finishtime"
+        android:layout_width="303dp"
+        android:layout_height="57dp"
+        android:background="@drawable/forget"
+        android:hint="Stock End Time"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <EditText
+        android:id="@+id/arrivaltime"
+        android:layout_width="303dp"
+        android:layout_height="57dp"
+        android:background="@drawable/forget"
+        android:hint="Arrival Time"
+        android:paddingLeft="20dp"
+        android:textColor="#95120a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.59" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
